@@ -1,0 +1,4 @@
+﻿  rob_part_input.cpp
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(34): warning C4101: 'second': unreferenced local variable
+  Robbie_Robot_GUI.vcxproj -> C:\Users\Anil\Documents\Visual Studio 2015\Projects\Robbie_Robot_GUI\Debug\Robbie_Robot_GUI.exe
+  Robbie_Robot_GUI.vcxproj -> C:\Users\Anil\Documents\Visual Studio 2015\Projects\Robbie_Robot_GUI\Debug\Robbie_Robot_GUI.pdb (Full PDB)
