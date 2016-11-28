@@ -11,11 +11,13 @@
 
 
 Store store;
+int i = 0;
 int main()
 {
 	
 	Fl_Window *win = new Fl_Window(900, 300, "Robbie Robot");
 	Fl_Box *box = new Fl_Box(0, 0, 900, 300, "Robbie Robot");
+	//Store store;//tried to pass by reference as a void pointer argument, but get an invalid type coversion error
 	
 Fl_Menu_Bar *menu_bar = new Fl_Menu_Bar(0, 0, 300, 30);
 	Fl_Menu_Item menu_items[] =
@@ -26,7 +28,7 @@ Fl_Menu_Bar *menu_bar = new Fl_Menu_Bar(0, 0, 300, 30);
 			{0},
 		
 		{ "Customer", 0, 0, 0, FL_SUBMENU},
-			{"Browse Catalog", 0, (Fl_Callback *)catalCB, (void*)30},
+			{"Browse Catalog", 0, (Fl_Callback *)catalCB},
 			{0},
 		{0},
 		{0}

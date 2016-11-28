@@ -1,4 +1,19 @@
 ﻿  catal_view.cpp
-c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\catal_view.cpp(29): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\catal_view.cpp(55): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\catal_view.cpp(61): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\catal_view.cpp(67): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\catal_view.cpp(73): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\catal_view.cpp(79): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\catal_view.cpp(120): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\catal_view.cpp(125): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\catal_view.cpp(131): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\catal_view.cpp(136): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\catal_view.cpp(141): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\catal_view.cpp(177): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\catal_view.cpp(182): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\catal_view.cpp(188): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\catal_view.cpp(193): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\catal_view.cpp(198): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\catal_view.cpp(241): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
   Robbie_Robot_GUI.vcxproj -> C:\Users\Anil\Documents\Visual Studio 2015\Projects\Robbie_Robot_GUI\Debug\Robbie_Robot_GUI.exe
   Robbie_Robot_GUI.vcxproj -> C:\Users\Anil\Documents\Visual Studio 2015\Projects\Robbie_Robot_GUI\Debug\Robbie_Robot_GUI.pdb (Full PDB)

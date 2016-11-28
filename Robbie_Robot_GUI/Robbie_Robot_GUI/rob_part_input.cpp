@@ -215,7 +215,7 @@ void submit_locoCB(Fl_Widget* w, void* p)
 	cout << "Cost: " << store.loco.back()->get_cost() << endl;
 	cout << "Part Number :" << store.loco.back()->get_part_num() << endl;
 	cout << "Picture file: " << store.loco.back()->get_filename() << endl;
-	cout << "Max Speed: " << store.loco.back()->get_max_speed << endl; 
+	cout << "Max Speed: " << store.loco.back()->get_max_speed() << endl; 
 	cout << "Power Consumption: " << store.loco.back()->get_power() << endl << endl; //Test code
 	//cout << store.arm[0]->get_cost() << endl;
 
@@ -243,7 +243,11 @@ void create_modelCB(Fl_Widget* w, void* p)
 {
 	double wt, cost;
 	wt = cost = 0;
+	
+	
 	store.store_model(name->value(), 0, 0, stoi(part_num->value()), descript->value(), file);
+	
+	
 	store.rob.back()->set_index(1, left_arm_ind);
 	store.rob.back()->set_index(2, right_arm_ind);
 	store.rob.back()->set_index(3, batt_ind);
@@ -254,36 +258,42 @@ void create_modelCB(Fl_Widget* w, void* p)
 	{
 		cost += store.left_arm[left_arm_ind]->get_cost();
 		wt += store.left_arm[left_arm_ind]->get_weight();
+		cout << "Weight: " << wt << endl;
 	}
 
 	if (right_arm_ind != -1)
 	{
 		cost += store.right_arm[right_arm_ind]->get_cost();
 		wt += store.right_arm[right_arm_ind]->get_weight();
+		cout << "Weight: " << wt << endl;
 	}
 
 	if (batt_ind != -1)
 	{
-		cost += store.batt[batt_ind]->get_cost() * store.batt[batt_ind]->get_energy();
-		wt += store.batt[batt_ind]->get_weight() * store.batt[batt_ind]->get_energy();
+		cost += store.batt[batt_ind]->get_cost() * store.tor[torso_ind]->get_battery();
+		wt += store.batt[batt_ind]->get_weight() * store.tor[torso_ind]->get_battery();
+		cout << "Weight: " << wt << endl;
 	}
 
 	if (head_ind != -1)
 	{
 		cost += store.head[head_ind]->get_cost();
 		wt += store.head[head_ind]->get_weight();
+		cout << "Weight: " << wt << endl;
 	}
 
 	if (loco_ind != -1)
 	{
 		cost += store.loco[loco_ind]->get_cost();
 		wt += store.loco[loco_ind]->get_weight();
+		cout << "Weight: " << wt << endl;
 	}
 
 	if (torso_ind != -1)
 	{
 		cost += store.tor[torso_ind]->get_cost();
 		wt += store.tor[torso_ind]->get_weight();
+		cout << "Weight: " << wt << endl;
 	}
 
 	store.rob.back()->set_cost(cost);
@@ -296,6 +306,7 @@ void create_modelCB(Fl_Widget* w, void* p)
 	cout << "Cost: " << store.rob.back()->get_cost() << endl;
 	cout << "Part Number :" << store.rob.back()->get_part_num() << endl;
 	cout << "Picture file: " << store.rob.back()->get_filename() << endl << endl;
+	file = "";//reset file strin to empty
 	
 }
 
