@@ -26,12 +26,17 @@ Fl_Menu_Bar *menu_bar = new Fl_Menu_Bar(0, 0, 300, 30);
 			{"Create Robot Parts", 0, (Fl_Callback *)part_inputCB},
 			{"Create Robot Model", 0, (Fl_Callback *)model_inputCB},
 			{0},
-		
+
 		{ "Customer", 0, 0, 0, FL_SUBMENU},
 			{"Browse Catalog", 0, (Fl_Callback *)catalCB},
 			{0},
+
+		{"Boss", 0, 0, 0, FL_SUBMENU},
+			{"Create Customer", 0, (Fl_Callback *)custCB},
+			{0},
 		{0},
-		{0}
+		{0},
+		
 
 	};
 	menu_bar->menu(menu_items);

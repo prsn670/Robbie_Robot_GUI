@@ -1,4 +1,53 @@
-﻿  catal_view.cpp
+﻿  store.cpp
+  customer.cpp
+  Generating Code...
+  Compiling...
+  rob_part_input.cpp
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(353): warning C4018: '<': signed/unsigned mismatch
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(357): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(345): warning C4101: 'len2': unreferenced local variable
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(344): warning C4101: 'pic': unreferenced local variable
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(341): warning C4101: 'img': unreferenced local variable
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(423): warning C4018: '<': signed/unsigned mismatch
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(427): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(415): warning C4101: 'len2': unreferenced local variable
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(414): warning C4101: 'pic': unreferenced local variable
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(411): warning C4101: 'img': unreferenced local variable
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(493): warning C4018: '<': signed/unsigned mismatch
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(497): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(485): warning C4101: 'len2': unreferenced local variable
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(484): warning C4101: 'pic': unreferenced local variable
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(481): warning C4101: 'img': unreferenced local variable
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(563): warning C4018: '<': signed/unsigned mismatch
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(567): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(555): warning C4101: 'len2': unreferenced local variable
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(554): warning C4101: 'pic': unreferenced local variable
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(551): warning C4101: 'img': unreferenced local variable
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(633): warning C4018: '<': signed/unsigned mismatch
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(637): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(625): warning C4101: 'len2': unreferenced local variable
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(624): warning C4101: 'pic': unreferenced local variable
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(621): warning C4101: 'img': unreferenced local variable
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(703): warning C4018: '<': signed/unsigned mismatch
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(707): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(695): warning C4101: 'len2': unreferenced local variable
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(694): warning C4101: 'pic': unreferenced local variable
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(691): warning C4101: 'img': unreferenced local variable
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(756): warning C4018: '<': signed/unsigned mismatch
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(758): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(776): warning C4018: '<': signed/unsigned mismatch
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(778): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(796): warning C4018: '<': signed/unsigned mismatch
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(798): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(816): warning C4018: '<': signed/unsigned mismatch
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(818): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(836): warning C4018: '<': signed/unsigned mismatch
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(838): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(855): warning C4018: '<': signed/unsigned mismatch
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\rob_part_input.cpp(857): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+  list_robot.cpp
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\list_robot.cpp(10): warning C4018: '<': signed/unsigned mismatch
+  catal_view.cpp
 c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\catal_view.cpp(55): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
 c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\catal_view.cpp(61): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
 c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\catal_view.cpp(67): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
@@ -14,6 +63,8 @@ c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robo
 c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\catal_view.cpp(188): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
 c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\catal_view.cpp(193): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
 c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\catal_view.cpp(198): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
-c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\catal_view.cpp(241): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\anil\documents\visual studio 2015\projects\robbie_robot_gui\robbie_robot_gui\catal_view.cpp(242): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+  Source.cpp
+  Generating Code...
   Robbie_Robot_GUI.vcxproj -> C:\Users\Anil\Documents\Visual Studio 2015\Projects\Robbie_Robot_GUI\Debug\Robbie_Robot_GUI.exe
   Robbie_Robot_GUI.vcxproj -> C:\Users\Anil\Documents\Visual Studio 2015\Projects\Robbie_Robot_GUI\Debug\Robbie_Robot_GUI.pdb (Full PDB)

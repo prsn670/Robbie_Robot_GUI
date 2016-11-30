@@ -47,3 +47,9 @@ void Store::store_model(string str, double lbs, double money, int part, string d
 	
 }
 
+void Store::store_cust(string f_name, string l_name, string add, string cty, string st, string code, string ctry, string num)
+{
+	cust.push_back(new Customer(f_name, l_name, add, cty, st, code, ctry, num));
+	
+}
+

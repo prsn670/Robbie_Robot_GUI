@@ -10,6 +10,7 @@
 #include "robot_locomotor.h"
 #include "robot_torso.h"
 #include "order.h"
+#include "customer.h"
 
 class Store{
 public:
@@ -21,6 +22,7 @@ public:
 	vector<Locomotor*> loco;
 	vector<Torso*> tor;
 	vector<Order*> ord;
+	vector<Customer*> cust;
 	
 
 	void left_store_arm(string str, double lbs, double money, int part, string desc, string pic, int pow);
@@ -30,6 +32,7 @@ public:
 	void store_locomotor(string str, double lbs, double money, int part, string desc, string pic, int speed, int pow);
 	void store_torso(string str, double lbs, double money, int part, string desc, string pic, int amt);
 	void store_model(string str, double lbs, double money, int part, string desc, string pic);
+	void store_cust(string f_name, string l_name, string add, string cty, string st, string code, string ctry, string num);
 	
 	
 
